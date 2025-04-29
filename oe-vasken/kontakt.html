@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontakt | Ø-Vasken</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <nav>
+    <div class="logo">Ø-Vasken</div>
+    <ul>
+      <li><a href="index.html">Forside</a></li>
+      <li><a href="om-os.html">Om os</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="kontakt">
+      <h2>Kontakt os</h2>
+      <form>
+        <label for="navn">Navn:</label>
+        <input type="text" id="navn" name="navn" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="service">Vælg service:</label>
+        <select id="service" name="service">
+          <option value="udvendig">Udvendig vask</option>
+          <option value="indvendig">Indvendig rengøring</option>
+          <option value="begge">Udvendig + indvendig</option>
+        </select>
+
+        <button type="submit" class="button">Send besked</button>
+      </form>
+
+      <h3>Find os</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      <p><strong>Telefon:</strong> 42 33 22 92</p>
+      <p><strong>Email:</strong> ovaskenbornholm@gmail.com</p>
+    </section>
+  </main>
+</body>
+</html>
